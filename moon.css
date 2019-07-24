@@ -7,6 +7,7 @@ body{
 	padding:0px;
 	max-width:100vw;
 	font-family: 'Noto Serif JP', 'Catamaran';
+	-webkit-text-size-adjust: none;
 }
 
 
@@ -18,6 +19,7 @@ div {
 
 img{
 	object-fit: cover;
+	max-width:100%;
 }
 
 
@@ -45,8 +47,8 @@ h1 {
 
 
 p {
-	font-size: 10px;
-	letter-spacing: 1px;
+	font-size: 13px;
+	letter-spacing: 0.3em;
 	padding-bottom: 50px;
 	line-height: 1.7;
 }
@@ -96,6 +98,30 @@ p {
 }
 
 .logo-ber {
-	width:38px;
-	margin:10 6;
+	width:34px;
+	margin:10 8;
 }
+
+.photo {
+	box-sizing: border-box;
+	padding-top:50px;
+	
+}
+
+.top0 {
+	padding-top:0px;
+}
+
+h2 {
+	
+	padding-top: 50px;
+	padding-right: 0;
+	padding-left: 40px;
+	font-size: 19px;
+	letter-spacing: 0.4em;
+	opacity: 0.5;
+	line-height: 2;
+	font-weight: lighter;
+}
+}
+
