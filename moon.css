@@ -23,14 +23,8 @@ img{
 }
 
 
-h4 {
-	padding-left: 20px;
-	padding-bottom: 0;
-	font-size: 10px;
-	font-family: 'Catamaran';
-	letter-spacing: 0.4em;
-	padding-top: 50px;
-}
+
+
 
 h1 {
 	padding-top: 50px;
@@ -44,6 +38,50 @@ h1 {
 	font-weight: lighter;
 }
 
+h2 {
+	
+	padding-top: 50px;
+	padding-right: 0;
+	padding-left: 40px;
+	font-size: 19px;
+	letter-spacing: 0.4em;
+	opacity: 0.5;
+	line-height: 2;
+	font-weight: lighter;
+}
+
+
+
+h3 {
+	padding-left: 60px;
+	padding-bottom: 10px;
+	font-size: 14px;
+	font-family: 'Catamaran';
+	letter-spacing: 0.4em;
+	padding-top: 10px;
+	line-height: 23px;
+}
+
+
+h4 {
+	padding-left: 20px;
+	padding-bottom: 0;
+	font-size: 10px;
+	font-family: 'Catamaran';
+	letter-spacing: 0.4em;
+	padding-top: 50px;
+}
+
+h5 {
+	padding-left: 60px;
+	padding-bottom: 0;
+	font-size: 7px;
+	font-family: 'Catamaran';
+	letter-spacing: 0.4em;
+	padding-top: 30px;
+}
+
+
 
 
 p {
@@ -52,6 +90,9 @@ p {
 	padding-bottom: 50px;
 	line-height: 1.7;
 }
+
+
+
 
 
 
@@ -112,36 +153,4 @@ p {
 	padding-top:0px;
 }
 
-h2 {
-	
-	padding-top: 50px;
-	padding-right: 0;
-	padding-left: 40px;
-	font-size: 19px;
-	letter-spacing: 0.4em;
-	opacity: 0.5;
-	line-height: 2;
-	font-weight: lighter;
-}
 
-
-
-h3 {
-	padding-left: 60px;
-	padding-bottom: 20px;
-	font-size: 14px;
-	font-family: 'Catamaran';
-	letter-spacing: 0.4em;
-	padding-top: 10px;
-	line-height: 25px;
-}
-
-
-h5 {
-	padding-left: 60px;
-	padding-bottom: 0;
-	font-size: 7px;
-	font-family: 'Catamaran';
-	letter-spacing: 0.4em;
-	padding-top: 30px;
-}
