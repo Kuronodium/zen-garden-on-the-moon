@@ -33,7 +33,7 @@ h1 {
 	padding-bottom: 50px;
 	font-size: 19px;
 	letter-spacing: 0.4em;
-	opacity: 0.5;
+	opacity: 0.7;
 	line-height: 2;
 	font-weight: lighter;
 }
@@ -134,7 +134,7 @@ p {
 }
 
 .black-back{
-	background-color: black;
+	background-color: rgba(0,0,0,0.9);
 	color:white;
 }
 
