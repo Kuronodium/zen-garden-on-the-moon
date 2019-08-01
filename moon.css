@@ -128,7 +128,7 @@ h2 {
 
 h3 {
 	padding-left: 60px;
-	padding-bottom: 0;
+	padding-bottom: 20px;
 	font-size: 14px;
 	font-family: 'Catamaran';
 	letter-spacing: 0.4em;
@@ -143,5 +143,5 @@ h5 {
 	font-size: 7px;
 	font-family: 'Catamaran';
 	letter-spacing: 0.4em;
-	padding-top: 50px;
+	padding-top: 30px;
 }
