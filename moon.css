@@ -5,15 +5,20 @@
 body{
 	margin:0px;
 	padding:0px;
-	max-width:100vw;
+	width:100%;
 	font-family: 'Noto Serif JP', 'Catamaran';
 	-webkit-text-size-adjust: none;
+	
+	
+	
 }
 
 
 div {
     margin:0px;
     padding:0px;
+	
+	
 }
 
 
@@ -36,6 +41,7 @@ h1 {
 	opacity: 0.7;
 	line-height: 2;
 	font-weight: lighter;
+	z-index:1;
 }
 
 h2 {
@@ -65,7 +71,7 @@ h3 {
 
 h4 {
 	padding-left: 20px;
-	padding-bottom: 0;
+	padding-bottom: 15px;
 	font-size: 10px;
 	font-family: 'Catamaran';
 	letter-spacing: 0.4em;
@@ -111,6 +117,7 @@ p {
 .contents {
 	width : calc(100% - 50px);
 	margin-left: 50px;
+	overflow: hidden;
 }
 
 .top {
@@ -121,7 +128,6 @@ p {
 .main{
 	height: 100%;
 	margin: 0px;
-	padding: 0px;
 	width: 100%;
 }
 
@@ -134,13 +140,14 @@ p {
 }
 
 .black-back{
+	
 	background-color: rgba(0,0,0,0.9);
 	color:white;
 }
 
 .logo-ber {
 	width:34px;
-	margin:10 8;
+	margin:10px 8px;
 }
 
 .photo {
@@ -154,3 +161,121 @@ p {
 }
 
 
+
+
+
+/* 拾い物の「メニュー」*/
+
+header {
+	height:0px;
+}
+
+#nav-drawer {
+  position: fixed;
+  z-index: 999;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  height: 100%;
+	width: 50px;
+	left: 0px;
+	border-right: 0.1px solid gray;
+	background-color: white;
+}
+
+/*アイコン*/
+#nav-open span, #nav-open span:before {
+	position: fixed;
+    
+}
+#nav-open span:before {
+  bottom: -8px;
+}
+#nav-open span:after {
+  bottom: -16px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+  display: none;/*はじめは隠しておく*/
+  position: fixed;
+  top: 0;/*全体に広がるように*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+}
+
+/*中身*/
+#nav-content {
+  overflow: auto;
+  position:fixed;
+  top: 0;
+  left: 50px;
+  width: 100%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  height: 100%;
+  transform: translateX(105%);/*左に隠しておく*/
+  background-color: rgba(255,255,255,0.95);
+}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .0;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  
+}
+
+
+
+.in-menu {
+  text-align: left;
+  position: fixed;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%) ;
+  
+  
+}
+
+/* 拾い物の「メニュー」*/
+
+
+
+
+a {
+	color:black;
+	text-decoration-line: none;
+	font-family: 'Catamaran';
+	line-height:2em;
+}
+
+.m {
+	width:50px;
+	height:100vh;
+}
+
+.top-m {
+	display: none;
+}
+
+.logo-ber-m {
+	display: none;
+}
+
+
+
+.menu-m {
+	display: none;
+}
