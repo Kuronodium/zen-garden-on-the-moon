@@ -135,8 +135,10 @@
 	padding:0 20px;
 	box-sizing: border-box;
 	float: left;
-	margin: 50px 0;
+	margin-bottom: 50px;
 	opacity: 0.7;
+	
+	height: 100px;
 }
 
 .desk {
