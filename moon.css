@@ -289,3 +289,9 @@ a {
 .info {
 	display: none;
 }
+
+.movie {
+	width:90vw;
+	height: 37.5vw;
+	margin:100 0;
+}
